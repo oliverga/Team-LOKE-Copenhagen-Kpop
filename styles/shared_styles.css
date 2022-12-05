@@ -25,27 +25,31 @@ h1 {
     font-family: 'Syne', sans-serif;
     font-size: xx-large;
     font-weight: 700;
-    padding: 0.5em 1rem;
+    margin-inline: 3rem;
+    margin-block: 2rem;
 }
 
 h2 {
     font-family: 'Syne', sans-serif;
-    font-size: x-large;
+    font-size: large;
     font-weight: 600;
 }
 
 p {
     font-size: medium;
     font-weight: 400;
-    padding: 0.5em 6rem;
+    padding: 0.5em;
     margin-block: 2rem;
+    margin-inline: 3rem;
 }
+
+/* GRID */
 
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3rem;
-    width: 80%;
+    width: 90%;
     margin-inline: auto;
 }
 
@@ -53,7 +57,7 @@ p {
 
 
 
-
+/* PRODUCT CARD */
 
 .card {
     background: #fff;
@@ -79,6 +83,10 @@ p {
     object-fit: cover;
 }
 
+#img1 {
+    
+}
+
 .card h2 {
     padding-inline: 1rem;
     padding-top: 1rem;
@@ -95,6 +103,9 @@ p {
     padding-inline: 1rem;
     padding-block: 0.2rem;
     font-size: large;
+    font-weight: 400;
+    margin-inline: 0;
+    margin-block: 1rem;
 }
 
 .card button {
@@ -104,4 +115,6 @@ p {
     padding: 1rem;
     width: 100%;
     cursor: pointer;
+    font-size: medium;
+    font-weight: 400;
 }
