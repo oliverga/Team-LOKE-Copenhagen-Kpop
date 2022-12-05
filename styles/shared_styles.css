@@ -25,6 +25,7 @@ h1 {
     font-family: 'Syne', sans-serif;
     font-size: xx-large;
     font-weight: 700;
+    padding: 0.5em 1rem;
 }
 
 h2 {
@@ -33,13 +34,26 @@ h2 {
     font-weight: 600;
 }
 
+p {
+    font-size: medium;
+    font-weight: 400;
+    padding: 0.5em 6rem;
+    margin-block: 2rem;
+}
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 3rem;
     width: 80%;
     margin-inline: auto;
 }
+
+
+
+
+
+
 
 .card {
     background: #fff;
@@ -49,11 +63,12 @@ h2 {
     border: 1px solid #2d2d2d;
     width: fit-content;
     height: fit-content;
+    overflow: hidden;
 }
 
 .imgdiv {
     aspect-ratio: 1/1;
-    width: 18rem;
+    width: 100%;
     height: auto;
     overflow: hidden;
 }
@@ -66,12 +81,20 @@ h2 {
 
 .card h2 {
     padding-inline: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2; 
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    margin-block: 0;
 }
 
 .card p {
     padding-inline: 1rem;
-    padding-block: 1rem;
+    padding-block: 0.2rem;
+    font-size: large;
 }
 
 .card button {
