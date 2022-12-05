@@ -21,26 +21,31 @@ img {
     display: block;
 }
 
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin-inline: auto;
+}   
+
 h1 {
     font-family: 'Syne', sans-serif;
     font-size: xx-large;
-    font-weight: 700;
-    margin-inline: 3rem;
-    margin-block: 2rem;
+    font-weight: 800;
+
+    margin-top: 2rem;
 }
 
 h2 {
     font-family: 'Syne', sans-serif;
-    font-size: large;
+    font-size: x-large;
     font-weight: 600;
 }
 
 p {
     font-size: medium;
     font-weight: 400;
-    padding: 0.5em;
+
     margin-block: 2rem;
-    margin-inline: 3rem;
 }
 
 /* GRID */
@@ -49,12 +54,8 @@ p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3rem;
-    width: 90%;
     margin-inline: auto;
 }
-
-
-
 
 
 /* PRODUCT CARD */
@@ -65,16 +66,18 @@ p {
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
     border: 1px solid #2d2d2d;
-    width: fit-content;
-    height: fit-content;
+    height: max-content;
     overflow: hidden;
 }
 
 .imgdiv {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.2;
     width: 100%;
     height: auto;
     overflow: hidden;
+    border-style: none none solid none;
+    border-color: #2d2d2d;
+    border-width: 1px;
 }
 
 .imgdiv img {
@@ -83,26 +86,21 @@ p {
     object-fit: cover;
 }
 
-#img1 {
-    
-}
-
 .card h2 {
     padding-inline: 1rem;
     padding-top: 1rem;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: clip;
     display: -webkit-box;
-    line-clamp: 2; 
-    -webkit-line-clamp: 2; 
+    line-clamp: 1; 
+    -webkit-line-clamp: 1; 
     -webkit-box-orient: vertical;
-    margin-block: 0;
 }
 
 .card p {
     padding-inline: 1rem;
     padding-block: 0.2rem;
-    font-size: large;
+    font-size: medium;
     font-weight: 400;
     margin-inline: 0;
     margin-block: 1rem;
