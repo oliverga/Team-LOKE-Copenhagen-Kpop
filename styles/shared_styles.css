@@ -47,9 +47,106 @@ p {
 a {
     font-size: medium;
     font-weight: 300;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+/* HEADER */
+
+header {
+    border-bottom: 1px solid #2d2d2d;
+    height: fit-content;
+}
+
+.free_delivery_banner {
+    background: #2d2d2d;
+    color: #fff;
+    padding: 0.2rem;
+    padding-block: 0.4rem;
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+}
+
+.header_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-inline: 1rem;
+    padding-block: 0.8rem;
+}
+
+.header_logo h1 {
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.header_nav_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header_nav_menu a {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.header_nav_menu a:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.header_nav_menu a:active {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.header_nav_menu li {
+    list-style: none;
+    margin-inline: 2rem;
+}
+
+.header_profile_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_profile_menu a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+.header_profile_menu a:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.header_profile_menu a:active {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.header_profile_menu li {
+    list-style: none;
+    margin-inline: 1rem;
+}
+
+.header_profile_menu img {
+    width: 1.3em;
+    height: 1.3em;
 }
 
 /* BREADCRUMBS */
+
 .breadcrumbs {
     display: flex;
     flex-direction: row;
@@ -62,6 +159,7 @@ a {
 .breadcrumbs a {
     text-decoration: none;
     color: #2d2d2d;
+    font-size: medium;
 }
 
 .breadcrumbs a:hover {
@@ -130,7 +228,6 @@ a {
     overflow: hidden;
     text-overflow: clip;
     display: -webkit-box;
-    line-clamp: 2; 
     -webkit-line-clamp: 2; 
     -webkit-box-orient: vertical;
     flex-basis: 4.8rem;
