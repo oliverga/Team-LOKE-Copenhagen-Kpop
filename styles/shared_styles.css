@@ -51,6 +51,16 @@ a {
     transition: all 0.2s;
 }
 
+label {
+    font-size: medium;
+    font-weight: 300;
+}
+
+input {
+    font-size: medium;
+    font-weight: 300;
+}
+
 /* HEADER */
 
 header {
@@ -252,4 +262,116 @@ header {
     font-size: medium;
     font-weight: 400;
     bottom: 0;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 3rem;
+}
+
+.newsletter_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    overflow: hidden;
+    border-top: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.newsletter_img {
+    background-image: url("/content/skz.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.newsletter_info {
+    display: flex;
+    flex-direction: column;
+    padding-block: 2.2rem;
+    padding-inline: 3rem;
+    justify-content: space-between;
+    height: fit-content;
+    border-left: 1px solid #2d2d2d;
+    background-image: linear-gradient(to right, rgb(225, 182, 210), rgb(184, 220, 232), rgb(237,	237,	187	));
+}
+
+.newsletter_info h2 {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter_info form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.newsletter_info form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid #2d2d2d;
+    border-radius: 5px
+}
+
+.newsletter_info form button {
+    background: #2d2d2d;
+    color: #fff;
+    border: 0;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.footer_info_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5%;
+    margin-inline: auto;
+    max-width: 90%;
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+.footer_info_grid h2 {
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer_info_grid p {
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.footer_info_grid a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+
+.footer_info_grid a:hover {
+    text-decoration: underline;
+}
+
+.footer_socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.footer_socials img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.5rem;
 }
