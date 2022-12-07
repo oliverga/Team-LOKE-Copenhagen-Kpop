@@ -31,8 +31,6 @@ h1 {
     font-family: 'Syne', sans-serif;
     font-size: xx-large;
     font-weight: 800;
-
-    margin-top: 2rem;
 }
 
 h2 {
@@ -44,10 +42,17 @@ h2 {
 p {
     font-size: medium;
     font-weight: 400;
-    
+}
+
+.testh1 {
+    margin-top: 2rem;
+}
+
+.testp {
     margin-bottom: 2.5rem;
     margin-top: 0.5rem;
 }
+
 
 /* GRID */
 
@@ -63,14 +68,16 @@ p {
 /* PRODUCT CARD */
 
 .card {
+    display: flex;
+    flex-direction: column;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
     border: 1px solid #2d2d2d;
-    height: max-content;
+    height: 28rem;
     overflow: hidden;
-    min-height: 400px;
+    justify-content: space-between  ;
 }
 
 .imgdiv {
@@ -118,4 +125,5 @@ p {
     cursor: pointer;
     font-size: medium;
     font-weight: 400;
+    bottom: 0;
 }
