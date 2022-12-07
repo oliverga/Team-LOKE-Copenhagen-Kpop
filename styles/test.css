@@ -1,0 +1,18 @@
+.testh1 {
+    margin-top: 2rem;
+}
+
+.testp {
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 1fr;
+        grid-gap: 5%;
+        margin-inline: auto;
+    }
+}
