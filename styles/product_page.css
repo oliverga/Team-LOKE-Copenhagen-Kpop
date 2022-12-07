@@ -1,0 +1,141 @@
+.grid_product_page {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    flex-direction: row;
+    grid-gap: 5%;
+    margin-inline: auto;
+}
+
+.grid_product_page_imgs {
+    width: 300%;
+}
+
+
+.grid_product_page_imgs img {
+    margin-bottom: 2rem;
+}
+
+.product_info {
+    position: sticky;
+    top: 20px;
+}
+
+.product_name p {
+    font-size: medium;
+    font-weight: 200;
+    color: #686868;
+}
+
+.product_name h1 {
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+
+/* VERSION SELECT */
+
+.product_version_select {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product_version_select li {
+    list-style: none;
+    margin-inline: 0.2rem;
+}
+
+.product_version_select label {
+    font-size: medium;
+    font-weight: 300;
+    border: 1px solid #2d2d2d;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    background: none;
+    transition: all 0.2s;
+}
+
+.product_version_select input {
+    display: none;
+}
+
+.product_version_select input:checked + label {
+    background: rgb(218, 218, 218);
+}
+
+/* PRODUCT PRICE */
+
+.product_price {
+    margin-block: 2rem;
+}
+
+.product_price h2 {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+
+/* QUANTITY PICKER */
+
+.number-input-container {
+    width: 150px;
+    display: grid;
+    grid-template-columns: 48px auto 48px;
+}
+
+.number-input-container button {
+    aspect-ratio: 1/1;
+    height: 80%;
+    background: none;
+    border: 1px solid #2d2d2d;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #2d2d2d;
+    transition: all 0.2s;
+}
+
+.number-input-container input[type="text"] {
+    width: 100%;
+    appearance: none;
+    border-radius: 0px;
+    justify-self: center;
+
+}
+
+.product_payment {
+    margin-block: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    align-items: center;
+}
+
+.product_payment > button {
+    margin-inline: 1rem;
+    background: none;
+    border: 1px solid #2d2d2d;
+    border-radius: 20px;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    font-size: medium;
+    font-weight: 300;
+    color: #2d2d2d;
+    transition: all 0.2s;
+}
+
+.product_description {
+    margin-block: 2rem;
+}
+
+.product_shipping {
+    margin-block: 2rem;
+}
