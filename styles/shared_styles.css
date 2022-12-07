@@ -44,6 +44,37 @@ p {
     font-weight: 400;
 }
 
+/* BREADCRUMBS */
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.breadcrumbs a:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.breadcrumbs a:active {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.breadcrumbs li {
+    list-style: none;
+    margin-inline: 0.2rem;
+}
 
 /* GRID */
 
