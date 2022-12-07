@@ -180,3 +180,13 @@
 .product_shipping {
     margin-block: 2rem;
 }
+
+.others_also_bought {
+    margin-block: 5rem;
+}
+
+.others_also_bought > h2 {
+    font-size: x-large;
+    font-weight: 700;
+    margin-block: 2rem;
+}
