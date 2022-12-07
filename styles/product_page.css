@@ -18,7 +18,8 @@
 
 .product_info {
     position: sticky;
-    top: 20px;
+    top: 2rem;
+    align-self: flex-start;
 }
 
 .product_name p {
@@ -63,12 +64,21 @@
     transition: all 0.2s;
 }
 
+.product_version_select label:hover {
+    background: rgb(218, 218, 218);
+}
+
+.product_version_select label:active {
+    background: rgb(191, 191, 191);
+}
+
+
 .product_version_select input {
     display: none;
 }
 
 .product_version_select input:checked + label {
-    background: rgb(218, 218, 218);
+    background: rgb(191, 191, 191);
 }
 
 /* PRODUCT PRICE */
@@ -85,42 +95,61 @@
 
 /* QUANTITY PICKER */
 
-.number-input-container {
-    width: 150px;
-    display: grid;
-    grid-template-columns: 48px auto 48px;
-}
-
-.number-input-container button {
-    aspect-ratio: 1/1;
-    height: 80%;
-    background: none;
-    border: 1px solid #2d2d2d;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #2d2d2d;
-    transition: all 0.2s;
-}
-
-.number-input-container input[type="text"] {
-    width: 100%;
-    appearance: none;
-    border-radius: 0px;
-    justify-self: center;
-
-}
-
 .product_payment {
     margin-block: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: auto;
+    justify-content: flex-start;
     align-items: center;
 }
 
+.number_input_container {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.number_input_container button {
+    aspect-ratio: 1/1;
+    height: 100%;
+    background: none;
+    border: 1px solid #2d2d2d;
+    border-radius: 50%;
+    color: #2d2d2d;
+    transition: all 0.2s;
+}
+
+.number_input_container button:hover {
+    background: rgb(218, 218, 218);
+}
+
+.number_input_container button:active {
+    background: rgb(191, 191, 191);
+}
+
+.number_input_container img {
+    width: 50%;
+    height: 50%;
+    margin-inline: auto;
+    margin-block: auto;
+}
+
+.quantity_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#quantity_number {
+    height: fit-content;
+    font-size: medium;
+    font-weight: 300;
+    color: #2d2d2d;
+    align-self: center;
+}
+
 .product_payment > button {
-    margin-inline: 1rem;
+    margin-inline: 1.5rem;
     background: none;
     border: 1px solid #2d2d2d;
     border-radius: 20px;
@@ -130,6 +159,18 @@
     font-weight: 300;
     color: #2d2d2d;
     transition: all 0.2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.product_payment > button:hover {
+    background: rgb(218, 218, 218);
+}
+
+.product_payment > button:active {
+    background: rgb(191, 191, 191);
 }
 
 .product_description {
