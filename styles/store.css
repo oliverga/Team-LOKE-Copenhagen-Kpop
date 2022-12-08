@@ -6,16 +6,38 @@
   display: none;
 }
 
+.display_none_mobileview {
+  display: none;
+}
+
 /* Website */
 @media (min-width: 600px) {
-  .flex_kategori {
+  /* .flex_kategori {
     display: flex;
-    grid-column: span 4;
     gap: 1rem;
+    border-style: solid;
+    border-color: black;
   }
 
   .flex_kategori img {
     width: 200%;
+  }*/
+
+  .flex_kategori {
+    display: grid;
+    gap: 1rem;
+    border-style: solid;
+    border-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .flex_kategori img {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .black_box {
+    background-color: black;
   }
 
   .banner_store {
@@ -28,7 +50,9 @@
   }
 
   .banner_store a {
-    font-size: 3rem;
+    color: rgb(30, 159, 30);
+    font-size: 2.5rem;
+    font-weight: 750;
   }
 
   .display_none_mobileview {
