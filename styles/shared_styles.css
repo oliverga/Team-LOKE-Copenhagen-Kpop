@@ -25,6 +25,7 @@ main {
     width: 90%;
     max-width: 1200px;
     margin-inline: auto;
+
 }   
 
 h1 {
@@ -200,10 +201,9 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
-    column-gap: 5%;
-    row-gap: 2%;
     margin-inline: auto;
     margin-block: 3rem;
+    overflow: visible;
 }
 
 
@@ -219,7 +219,7 @@ header {
     border-radius: 5px;
     border: 1px solid #2d2d2d;
     height: fit-content;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .card .imgdiv {
@@ -434,13 +434,15 @@ footer {
 
 @media (min-width: 600px) {
 
+    main {
+        margin-bottom: 4rem;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto 1fr;
-        column-gap: 5%;
-        row-gap: 3.5%;
         margin-inline: auto;
+        gap: 3rem;
     }
 
     .newsletter_container {
