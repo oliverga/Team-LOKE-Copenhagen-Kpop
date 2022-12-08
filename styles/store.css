@@ -1,3 +1,4 @@
+/* Mobilesite */
 .banner_store {
   display: none;
 }
@@ -5,6 +6,7 @@
   display: none;
 }
 
+/* Website */
 @media (min-width: 600px) {
   main {
     margin-bottom: 10rem;
@@ -17,10 +19,16 @@
   }
 
   .banner_store {
-    display: block;
+    display: grid;
     grid-column: span 3;
     background-image: url(/content/skz.webp);
     background-size: cover;
+    text-align: center;
+    align-content: center;
+  }
+
+  .banner_store a {
+    font-size: 3rem;
   }
 
   .display_none_mobileview {
