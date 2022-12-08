@@ -78,10 +78,6 @@ class Login extends HTMLElement {
         <div class="loginmodal-container">
           <h1>Login</h1><br>
           <p>This is a school project</p>
-<<<<<<< HEAD
-          // <p>The password is <code>kea</code></p>
-=======
->>>>>>> a7be439a5633276c96ffbccc585d9a721e635719
           <form>
             <input type="password" name="pass" placeholder="Password">
             <input type="submit" name="login" class="login loginmodal-submit" value="Login">
