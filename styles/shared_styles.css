@@ -220,7 +220,7 @@ header {
     border-radius: 5px;
     border: 1px solid #2d2d2d;
     height: fit-content;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .card .imgdiv {
@@ -272,7 +272,7 @@ header {
     bottom: 0;
 } */
 
-.card_button a {
+.card_button_link {
     text-decoration: none;
     color: #2d2d2d;
     font-size: medium;
@@ -293,6 +293,7 @@ header {
     font-weight: 300;
     background: #fff;
     transition: all 0.2s ease-in-out;
+    color: #2d2d2d;
 }
 
 .card_button:hover {
