@@ -157,8 +157,7 @@ header {
 }
 
 .header_profile_menu img {
-    width: 1.3em;
-    height: 1.3em;
+    width: 1.7em;
 }
 
 
@@ -419,12 +418,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 35%;
+    width: 38%;
 }
 
 .footer_socials img {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.8em;
+    height: 1.8em;
     margin-top: 0.5rem;
 }
 
