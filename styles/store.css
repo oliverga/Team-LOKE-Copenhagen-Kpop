@@ -8,10 +8,6 @@
 
 /* Website */
 @media (min-width: 600px) {
-  main {
-    margin-bottom: 10rem;
-  }
-
   .flex_kategori {
     display: flex;
     grid-column: span 4;
