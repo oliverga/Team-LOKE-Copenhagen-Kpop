@@ -255,10 +255,10 @@ header {
     font-size: medium;
     font-weight: 400;
     margin-inline: 0;
-    margin-block: 1rem;
+    margin-block: 0.5rem;
 }
 
-.card button {
+/* .card button {
     background: #2d2d2d;
     color: #fff;
     border: 0;
@@ -268,9 +268,31 @@ header {
     font-size: medium;
     font-weight: 400;
     bottom: 0;
+} */
+
+.card button {
+    border: 1px solid #2d2d2d;
+    border-radius: 25px;
+    padding-block: 0.8rem;
+    padding-inline: 2.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    margin-inline: auto;
+    width: fit-content;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 300;
+    background: #fff;
+    transition: all 0.2s ease-in-out;
 }
 
+.card button:hover {
+    background: rgb(218, 218, 218);
+}
 
+.card button:active {
+    background: rgb(191, 191, 191);
+}
 
 /* FOOTER */
 
@@ -326,7 +348,7 @@ footer {
     border-radius: 5px
 }
 
-.newsletter_info form button {
+/* .newsletter_info form button {
     background: #2d2d2d;
     color: #fff;
     border: 0;
@@ -337,6 +359,28 @@ footer {
     font-weight: 400;
     border-radius: 5px;
     width: fit-content;
+} */
+
+.newsletter_info form button {
+    border: 1px solid #2d2d2d;
+    border-radius: 25px;
+    padding-block: 0.8rem;
+    padding-inline: 2.4rem;
+    margin-block: 1rem;
+    width: fit-content;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 300;
+    background: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.newsletter_info form button:hover {
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.newsletter_info form button:active {
+    background: rgba(0, 0, 0, 0.25);
 }
 
 .footer_info_grid {
