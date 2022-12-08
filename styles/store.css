@@ -2,9 +2,7 @@
   display: none;
 }
 .flex_kategori {
-  display: flex;
-  grid-column: span 2;
-  gap: 1rem;
+  display: none;
 }
 
 @media (min-width: 600px) {
