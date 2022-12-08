@@ -190,3 +190,37 @@
     font-weight: 700;
     margin-block: 2rem;
 }
+
+
+
+/* media query for phone size */
+@media only screen and (max-width: 600px) {
+    .grid_product_page {
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-gap: 5%;
+        margin-inline: auto;
+    }
+
+    .grid_product_page_imgs {
+        width: 100%;
+    }
+
+    .grid_product_page_imgs img {
+        margin-bottom: 2rem;
+    }
+
+    .product_info {
+        position: relative;
+        top: 2rem;
+        align-self: flex-start;
+        margin-bottom: 3rem;
+    }
+
+    .others_also_bought {
+        margin-block: 3rem;
+        margin-bottom: 5rem;
+    }
+}
