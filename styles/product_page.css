@@ -51,7 +51,7 @@
 
 .product_version_select li {
     list-style: none;
-    margin-inline: 0.4rem;
+    margin-right: 0.8rem;
 }
 
 .product_version_select label {
@@ -89,7 +89,7 @@
 }
 
 .product_price h2 {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 700;
 }
 
@@ -129,8 +129,8 @@
 }
 
 .number_input_container img {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     margin-inline: auto;
     margin-block: auto;
 }
@@ -200,6 +200,48 @@
 
 .product_img1 {
     display: none;
+}
+
+.wishlist_container input {
+    display: none;
+}
+
+.wishlist_button {
+    margin-block: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: 1px solid #2d2d2d;
+    border-radius: 40px;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    transition: all 0.2s;
+    width: fit-content;
+    user-select: none;
+}
+
+.wishlist_button img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.wishlist_button:hover {
+    background: rgb(218, 218, 218);
+}
+
+.wishlist_button:active {
+    background: rgb(191, 191, 191);
+}
+
+#wishlist_checkbox:checked + .wishlist_button {
+    background: rgb(191, 191, 191);
+}
+
+#wishlist_checkbox:checked + .wishlist_button img {
+    fill: aqua;
 }
 
 /* media query for phone size */
