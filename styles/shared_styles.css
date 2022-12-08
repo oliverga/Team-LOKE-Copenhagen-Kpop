@@ -448,7 +448,6 @@ footer {
         border-bottom: 1px solid #2d2d2d;
     }
 
-
     .footer_info_grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
