@@ -1,1 +1,3 @@
-
+.banner_store {
+  grid-column: span 2;
+}
