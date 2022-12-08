@@ -200,7 +200,8 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
-    grid-gap: 5%;
+    column-gap: 5%;
+    row-gap: 2%;
     margin-inline: auto;
     margin-block: 3rem;
 }
@@ -314,6 +315,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: none;
 }
 
 .newsletter_info {
@@ -436,7 +438,8 @@ footer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto 1fr;
-        grid-gap: 5%;
+        column-gap: 5%;
+        row-gap: 3.5%;
         margin-inline: auto;
     }
 
@@ -447,6 +450,10 @@ footer {
         overflow: hidden;
         border-top: 1px solid #2d2d2d;
         border-bottom: 1px solid #2d2d2d;
+    }
+
+    .newsletter_img {
+        display: block;
     }
 
     .footer_info_grid {
