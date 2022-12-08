@@ -281,13 +281,14 @@ header {
     margin-top: 1rem;
     margin-bottom: 1.3rem;
     margin-inline: auto;
-    width: fit-content;
+    width: 80%;
+    text-align: center;
     cursor: pointer;
     font-size: medium;
     font-weight: 300;
     background: #fff;
-    transition: all 0.2s ease-in-out;
     color: #2d2d2d;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
 }
 
