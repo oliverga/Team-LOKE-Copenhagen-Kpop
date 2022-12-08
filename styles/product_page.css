@@ -45,11 +45,13 @@
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+    row-gap: 1.6rem;
 }
 
 .product_version_select li {
     list-style: none;
-    margin-inline: 0.2rem;
+    margin-inline: 0.4rem;
 }
 
 .product_version_select label {
@@ -58,7 +60,6 @@
     border: 1px solid #2d2d2d;
     padding-inline: 1rem;
     padding-block: 0.5rem;
-    margin-right: 1rem;
     border-radius: 20px;
     background: none;
     transition: all 0.2s;
