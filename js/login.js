@@ -94,11 +94,7 @@ class Login extends HTMLElement {
     this.shadowRoot.querySelector("form").addEventListener("submit", e => {
       e.preventDefault();
       if (
-<<<<<<< HEAD
         this.shadowRoot.querySelector("input[name=pass]").value === "kea"
-=======
-        this.shadowRoot.querySelector("input[name=pass]").value === "LOKE"
->>>>>>> a7be439a5633276c96ffbccc585d9a721e635719
       ) {
         document.querySelector("#totally-delete-me").remove();
         localStorage.setItem("iform-totally-logged-in", true);
