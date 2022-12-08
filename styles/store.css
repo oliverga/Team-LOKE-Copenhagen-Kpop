@@ -23,17 +23,20 @@
     width: 200%;
   }*/
 
-  .flex_kategori {
+  .grid_kategori {
     display: grid;
     gap: 1rem;
     border-style: solid;
     border-color: black;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
   }
 
-  .flex_kategori img {
+  .grid_kategori img {
     grid-template-rows: repeat(3, 1fr);
+  }
+
+  .grid_kategori h2 p {
+    margin: 3rem;
   }
 
   .black_box {
