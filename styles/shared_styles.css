@@ -204,6 +204,7 @@ header {
     margin-inline: auto;
     margin-block: 3rem;
     overflow: visible;
+    gap: 3rem;
 }
 
 
