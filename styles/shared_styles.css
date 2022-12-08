@@ -61,6 +61,7 @@ input {
     font-weight: 300;
 }
 
+
 /* HEADER */
 
 header {
@@ -81,16 +82,20 @@ header {
 .header_main {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-block: 0.8rem;
     width: 90%;
+    max-width: 1200px;
     margin-inline: auto;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
 }
 
-.header_logo h1 {
-    font-size: x-large;
-    font-weight: 800;
+.header_logo img {
+    width: 7em;
+    height: auto;
+    margin-inline: 0.5rem;
 }
 
 .header_nav_menu {
@@ -156,6 +161,7 @@ header {
     height: 1.3em;
 }
 
+
 /* BREADCRUMBS */
 
 .breadcrumbs {
@@ -187,6 +193,7 @@ header {
     list-style: none;
     margin-inline: 0.2rem;
 }
+
 
 /* GRID */
 
