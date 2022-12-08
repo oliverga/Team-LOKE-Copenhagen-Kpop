@@ -1,8 +1,4 @@
-div .banner_store {
-  display: none;
-}
-
-div .display_none_mobileview {
+.banner_store {
   display: none;
 }
 
@@ -10,14 +6,14 @@ div .display_none_mobileview {
   main {
     margin-bottom: 10rem;
   }
-  div .banner_store {
+  .banner_store {
     display: block;
     grid-column: span 3;
     background-image: url(/content/skz.webp);
     background-size: cover;
   }
 
-  div .display_none_mobileview {
+  .display_none_mobileview {
     display: block;
   }
 }
