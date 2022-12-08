@@ -215,7 +215,7 @@ header {
     overflow: hidden;
 }
 
-.card_imgdiv {
+.card .imgdiv {
     aspect-ratio: 1/1;
     width: 100%;
     height: auto;
@@ -225,7 +225,7 @@ header {
     border-width: 1px;
 }
 
-.card_imgdiv img {
+.card .imgdiv img {
     width: 100%;
     height: 100%;
     object-fit: cover;
