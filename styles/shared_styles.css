@@ -82,9 +82,9 @@ header {
 .header_main {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding-block: 0.8rem;
+    padding-block: 1rem;
     width: 90%;
     max-width: 1200px;
     margin-inline: auto;

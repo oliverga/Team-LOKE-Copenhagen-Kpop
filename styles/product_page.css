@@ -193,7 +193,14 @@
     margin-block: 2rem;
 }
 
+.product_img2 {
+    display: block;
+    margin-bottom: 2rem;
+}
 
+.product_img1 {
+    display: none;
+}
 
 /* media query for phone size */
 @media (min-width: 600px) {
@@ -219,5 +226,14 @@
     .others_also_bought {
         margin-block: 5rem;
     }
+
+    .product_img1 {
+        display: block;
+    }
+
+    .product_img2 {
+        display: none;
+    }
+    
 
 }
