@@ -6,6 +6,13 @@
   main {
     margin-bottom: 10rem;
   }
+
+  .flex_kategori {
+    display: flex;
+    grid-column: span 4;
+    gap: 1rem;
+  }
+
   .banner_store {
     display: block;
     grid-column: span 3;
