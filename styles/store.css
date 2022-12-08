@@ -18,6 +18,10 @@
     gap: 1rem;
   }
 
+  .flex_kategori img {
+    width: 200%;
+  }
+
   .banner_store {
     display: grid;
     grid-column: span 3;
