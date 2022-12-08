@@ -1,6 +1,11 @@
 .banner_store {
   display: none;
 }
+.flex_kategori {
+  display: flex;
+  grid-column: span 2;
+  gap: 1rem;
+}
 
 @media (min-width: 600px) {
   main {
