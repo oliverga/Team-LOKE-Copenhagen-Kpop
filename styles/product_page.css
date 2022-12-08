@@ -1,17 +1,14 @@
-.grid_product_page {
+.flex_product_page {
     display: flex;
     flex-direction: column-reverse;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    grid-gap: 5%;
     margin-inline: auto;
 }
 
-.grid_product_page_imgs {
+.flex_product_page_imgs {
     width: 100%;
 }
 
-.grid_product_page_imgs img {
+.flex_product_page_imgs img {
     margin-bottom: 2rem;
 }
 
@@ -20,6 +17,7 @@
     top: 2rem;
     align-self: flex-start;
     margin-bottom: 3rem;
+    width: 100%;
 }
 
 .product_name p {
@@ -174,12 +172,27 @@
     background: rgb(191, 191, 191);
 }
 
+
 .product_description {
     margin-block: 2rem;
+    transition: all 0.8s;
 }
 
-.product_shipping {
-    margin-block: 2rem;
+.product_description ul {
+    margin-bottom: 1rem;
+}
+
+.product_description h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.product_description p {
+    font-size: 0.9rem;
+}
+
+.product_description li {
+    font-size: 0.9rem;
 }
 
 .others_also_bought {
@@ -246,17 +259,15 @@
 
 /* media query for phone size */
 @media (min-width: 600px) {
-    .grid_product_page {
-        display: flex;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto 1fr;
+    .flex_product_page {
+        display: flex;;
         flex-direction: row;
-        grid-gap: 5%;
         margin-inline: auto;
+        gap: 3rem;
     }
     
-    .grid_product_page_imgs {
-        width: 300%;
+    .flex_product_page_imgs {
+        width: 100%;
     }
 
     .product_info {

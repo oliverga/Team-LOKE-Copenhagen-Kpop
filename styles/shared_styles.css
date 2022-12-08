@@ -62,6 +62,10 @@ input {
     font-weight: 300;
 }
 
+li {
+    font-size: medium;
+    font-weight: 300;
+}
 
 /* HEADER */
 
@@ -228,9 +232,6 @@ header {
     width: 100%;
     height: auto;
     overflow: hidden;
-    border-style: none none solid none;
-    border-color: #2d2d2d;
-    border-width: 1px;
 }
 
 .card .imgdiv img {
