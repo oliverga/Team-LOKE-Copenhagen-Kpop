@@ -78,6 +78,10 @@ class Login extends HTMLElement {
         <div class="loginmodal-container">
           <h1>Login</h1><br>
           <p>This is a school project</p>
+<<<<<<< HEAD
+          // <p>The password is <code>kea</code></p>
+=======
+>>>>>>> a7be439a5633276c96ffbccc585d9a721e635719
           <form>
             <input type="password" name="pass" placeholder="Password">
             <input type="submit" name="login" class="login loginmodal-submit" value="Login">
@@ -90,7 +94,7 @@ class Login extends HTMLElement {
     this.shadowRoot.querySelector("form").addEventListener("submit", e => {
       e.preventDefault();
       if (
-        this.shadowRoot.querySelector("input[name=pass]").value === "LOKE"
+        this.shadowRoot.querySelector("input[name=pass]").value === "kea"
       ) {
         document.querySelector("#totally-delete-me").remove();
         localStorage.setItem("iform-totally-logged-in", true);
