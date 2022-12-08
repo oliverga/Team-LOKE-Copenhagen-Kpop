@@ -192,13 +192,11 @@ header {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
     grid-gap: 5%;
     margin-inline: auto;
 }
-
-
 
 
 /* PRODUCT CARD */
@@ -265,6 +263,8 @@ header {
     bottom: 0;
 }
 
+
+
 /* FOOTER */
 
 footer {
@@ -273,7 +273,7 @@ footer {
 
 .newsletter_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     height: fit-content;
     overflow: hidden;
     border-top: 1px solid #2d2d2d;
@@ -334,12 +334,12 @@ footer {
 
 .footer_info_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 5%;
     margin-inline: auto;
     max-width: 90%;
     margin-top: 3.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
 }
 
 .footer_info_grid h2 {
@@ -379,11 +379,11 @@ footer {
 
 
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 600px) {
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto 1fr;
         grid-gap: 5%;
         margin-inline: auto;
@@ -391,21 +391,22 @@ footer {
 
     .newsletter_container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         height: fit-content;
         overflow: hidden;
         border-top: 1px solid #2d2d2d;
         border-bottom: 1px solid #2d2d2d;
     }
 
+
     .footer_info_grid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 5%;
         margin-inline: auto;
         max-width: 90%;
         margin-top: 3.5rem;
-        margin-bottom: 7rem;
+        margin-bottom: 4rem;
     }
 
 }

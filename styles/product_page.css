@@ -1,25 +1,25 @@
 .grid_product_page {
     display: flex;
-    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    flex-direction: row;
     grid-gap: 5%;
     margin-inline: auto;
 }
 
 .grid_product_page_imgs {
-    width: 300%;
+    width: 100%;
 }
-
 
 .grid_product_page_imgs img {
     margin-bottom: 2rem;
 }
 
 .product_info {
-    position: sticky;
+    position: relative;
     top: 2rem;
     align-self: flex-start;
+    margin-bottom: 3rem;
 }
 
 .product_name p {
@@ -182,7 +182,8 @@
 }
 
 .others_also_bought {
-    margin-block: 5rem;
+    margin-block: 3rem;
+    margin-bottom: 5rem;
 }
 
 .others_also_bought > h2 {
@@ -194,33 +195,28 @@
 
 
 /* media query for phone size */
-@media only screen and (max-width: 600px) {
+@media (min-width: 600px) {
     .grid_product_page {
         display: flex;
-        flex-direction: column-reverse;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto 1fr;
+        flex-direction: row;
         grid-gap: 5%;
         margin-inline: auto;
     }
-
+    
     .grid_product_page_imgs {
-        width: 100%;
-    }
-
-    .grid_product_page_imgs img {
-        margin-bottom: 2rem;
+        width: 300%;
     }
 
     .product_info {
-        position: relative;
+        position: sticky;
         top: 2rem;
         align-self: flex-start;
-        margin-bottom: 3rem;
     }
 
     .others_also_bought {
-        margin-block: 3rem;
-        margin-bottom: 5rem;
+        margin-block: 5rem;
     }
+
 }
