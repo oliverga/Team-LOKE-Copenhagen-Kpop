@@ -1,10 +1,9 @@
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto 1fr;
-  grid-gap: 5%;
-  margin-inline: auto;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: auto;
+    gap: 2rem;
+    margin-block: 3rem;
 }
 
 
@@ -105,15 +104,14 @@
 @media (min-width: 600px) {
   .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
     grid-gap: 5%;
     margin-inline: auto;
   }
-  #product3,
-  #product4 {
+  #product3{
     display: inherit;
-  }
+}
   .grid_bands {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -132,3 +130,15 @@
     margin-top: 50px;
   }
 }
+
+@media (min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-gap: 5%;
+    margin-inline: auto;
+  }
+  #product4{
+    display: inherit;
+}}
