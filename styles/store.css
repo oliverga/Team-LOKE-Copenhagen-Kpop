@@ -71,7 +71,6 @@
     
     .filters {
       width: 36em;
-      box-shadow: 0 0 0.5em 0 rgba(0,0,0,0.3);
       padding: 1.5em;
       position: absolute;
     }
