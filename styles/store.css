@@ -27,9 +27,14 @@
     grid-template-rows: 2fr 0.1fr;
   }
 
-  .grid_kategori img {
+  .grid_kategori_img{
     grid-template-rows: repeat(3, 1fr);
-    width: 98%;
+    background-image: url(/content/kategori.webp);
+    background-size: cover;
+  }
+
+  .text_kategori {
+    padding: 1.5rem;
   }
 
     /*BLACK BOX I GRID HEADER*/
@@ -46,21 +51,21 @@
       color: #ffffff;
     }
   
-    ul {
+    .filters ul {
       list-style: none;
     }
     
-    label {
+    .filters label {
       cursor: pointer;
       margin-right: 2em;
     }
     
-    ul, li {
+    .filters ul, li {
       margin: 0;
       padding: 0;
     }
     
-    li {
+    .filters li {
       padding: 0.5em;
     }
     
