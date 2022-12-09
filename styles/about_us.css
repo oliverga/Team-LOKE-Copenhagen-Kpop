@@ -55,6 +55,7 @@ h1 {
     font-family: 'Syne', sans-serif;
     font-size: xx-large;
     font-weight: 800;
+    text-align: center;
 }
 
 h2 {
@@ -66,6 +67,7 @@ h2 {
 p {
     font-size: medium;
     font-weight: 300;
+    margin: 15px;
 }
 
 a {
