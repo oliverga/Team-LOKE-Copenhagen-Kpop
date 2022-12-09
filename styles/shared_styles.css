@@ -443,14 +443,15 @@ footer {
     grid-template-columns: 1fr;
     margin-inline: auto;
     max-width: 90%;
-    margin-top: 3.5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
 }
 
 .footer_info_grid h2 {
     font-size: x-large;
     font-weight: 600;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .footer_info_grid p {
@@ -512,17 +513,13 @@ footer {
 
     .footer_info_grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 5%;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
         margin-inline: auto;
         max-width: 90%;
-        margin-top: 3.5rem;
-        margin-bottom: 4rem;
+        padding-inline: 3rem;
     }
 
-    .footer_info_grid {
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 @media (min-width: 1000px) {
