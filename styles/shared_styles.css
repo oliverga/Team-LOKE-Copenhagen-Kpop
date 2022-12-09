@@ -34,7 +34,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: #2d2d2d;
+    color: var(--primary);
     font-size: medium;
 }
 
@@ -94,12 +94,12 @@ li {
 /* HEADER */
 
 header {
-    border-bottom: 1px solid #2d2d2d;
+    border-bottom: var(--primary-border);
     height: fit-content;
 }
 
 .free_delivery_banner {
-    background: #2d2d2d;
+    background: var(--primary);
     color: #fff;
     padding: 0.2rem;
     padding-block: 0.4rem;
@@ -244,7 +244,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
-    border: 1px solid #2d2d2d;
+    border: var(--primary-border);
     height: fit-content;
     overflow: hidden;
 }
@@ -296,7 +296,7 @@ header {
 } */
 
 .card_button {
-    border: 1px solid #2d2d2d;
+    border: var(--primary-border);
     border-radius: 25px;
     padding-block: 0.6rem;
     padding-inline: 2.6rem;
@@ -323,7 +323,7 @@ header {
     background: rgb(191, 191, 191);
 }
     
-.card button {
+/* .card button {
     border: 1px solid #2d2d2d;
     border-radius: 25px;
     padding-block: 0.8rem;
@@ -345,7 +345,7 @@ header {
 
 .card button:active {
     background: rgb(191, 191, 191);
-}
+} */
 
 
 
@@ -360,8 +360,8 @@ footer {
     grid-template-columns: 1fr;
     height: fit-content;
     overflow: hidden;
-    border-top: 1px solid #2d2d2d;
-    border-bottom: 1px solid #2d2d2d;
+    border-top: var(--primary-border);
+    border-bottom: var(--primary-border);
 }
 
 .newsletter_img {
@@ -379,7 +379,7 @@ footer {
     padding-inline: 3rem;
     justify-content: space-between;
     height: fit-content;
-    border-left: 1px solid #2d2d2d;
+    border-left: var(--primary-border);
     background-image: linear-gradient(to right, rgb(225, 182, 210), rgb(184, 220, 232), rgb(237,	237,	187	));
 }
 
@@ -400,7 +400,7 @@ footer {
     padding: 0.5rem;
     margin-bottom: 1rem;
     margin-top: 0.5rem;
-    border: 1px solid #2d2d2d;
+    border: var(--primary-border);
     border-radius: 5px
 }
 
@@ -418,7 +418,7 @@ footer {
 } */
 
 .newsletter_info form button {
-    border: 1px solid #2d2d2d;
+    border: var(--primary-border);
     border-radius: 25px;
     padding-block: 0.8rem;
     padding-inline: 2.4rem;
@@ -504,8 +504,8 @@ footer {
         grid-template-columns: 1fr 1fr;
         height: fit-content;
         overflow: hidden;
-        border-top: 1px solid #2d2d2d;
-        border-bottom: 1px solid #2d2d2d;
+        border-top: var(--primary-border);
+        border-bottom: var(--primary-border);
     }
 
     .newsletter_img {
