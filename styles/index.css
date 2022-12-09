@@ -1,12 +1,15 @@
 .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-inline: auto;
-    gap: 2rem;
-    margin-block: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-inline: auto;
+  gap: 2rem;
+  margin-block: 1rem;
 }
-
-
+.explore_link{
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+}
 #product3,
 #product4 {
   display: none;
@@ -16,7 +19,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px;
-  margin-top: 15%;
+  margin-block: 1rem;
 }
 .card_bands {
   display: flex;
@@ -26,9 +29,8 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
-
-  height: fit-content;
   overflow: hidden;
+
 }
 
 #bts {
@@ -109,9 +111,9 @@
     grid-gap: 5%;
     margin-inline: auto;
   }
-  #product3{
+  #product3 {
     display: inherit;
-}
+  }
   .grid_bands {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -125,9 +127,9 @@
   .store_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
     grid-gap: 5%;
     margin-top: 50px;
+   
   }
 }
 
@@ -139,6 +141,7 @@
     grid-gap: 5%;
     margin-inline: auto;
   }
-  #product4{
+  #product4 {
     display: inherit;
-}}
+  }
+}
