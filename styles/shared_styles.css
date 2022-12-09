@@ -90,6 +90,7 @@ li {
     font-weight: 300;
 }
 
+
 /* HEADER */
 
 header {
@@ -227,11 +228,9 @@ header {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 1fr;
     margin-inline: auto;
-    margin-block: 3rem;
-    overflow: visible;
     gap: 2rem;
+    margin-block: 3rem;
 }
 
 
@@ -347,6 +346,8 @@ header {
 .card button:active {
     background: rgb(191, 191, 191);
 }
+
+
 
 /* FOOTER */
 
