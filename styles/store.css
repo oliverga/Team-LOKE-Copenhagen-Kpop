@@ -1,4 +1,4 @@
-/* Mobilesite */
+/* MOBILSITE - DET SOM SKAL FORSVINDE PÅ MOBILEVIEW*/
 .banner_store {
   display: none;
 }
@@ -10,7 +10,7 @@
   display: none;
 }
 
-/* Website */
+/* WEBSITE - BANNER OG HEADER TILFØJES OG STYLES */
 @media (min-width: 600px) {
   .grid_kategori {
     display: grid;
@@ -25,16 +25,28 @@
     width: 98%;
   }
 
+  /*BLACK BOX I GRID HEADER*/
   .black_box {
     width: 100%;
     height: 100%;
     background-color: black;
     grid-column: span 2;
   }
-  .black_box p {
-    color: #ffffff;
+
+  .black_box button {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 1rem;
   }
 
+  .black_box button:hover {
+    border: none;
+    color: white;
+    background-color: #2d2d2d;
+  }
+
+  /*BOI BAND MIDT PÅ SIDEN // LINK TIL ANDET STED*/
   .banner_store {
     display: grid;
     grid-column: span 3;
