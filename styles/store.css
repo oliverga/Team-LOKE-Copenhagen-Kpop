@@ -27,7 +27,7 @@
     grid-template-rows: 2fr 0.1fr;
   }
 
-  .grid_kategori_img{
+  .grid_kategori_img {
     grid-template-rows: repeat(3, 1fr);
     background-image: url(/content/kategori.webp);
     background-size: cover;
@@ -37,88 +37,88 @@
     padding: 1.5rem;
   }
 
-    /*BLACK BOX I GRID HEADER*/
-    .black_box {
-      width: 100%;
-      height: 100%;
-      background-color: black;
-      grid-column: span 2;
-    }
-  
-    /*BLACK BOX BUTTON START*/ 
-    .filters__list{ 
-      background-color: #2d2d2d;
-      color: #ffffff;
-    }
-  
-    .filters ul {
-      list-style: none;
-    }
-    
-    .filters label {
-      cursor: pointer;
-      margin-right: 2em;
-    }
-    
-    .filters ul, li {
-      margin: 0;
-      padding: 0;
-    }
-    
-    .filters li {
-      padding: 0.5em;
-    }
-    
-    .filters {
-      width: 36em;
-      padding: 1.5em;
-      position: absolute;
-    }
-    
-    .filters__list li {
-      display: flex;
-      align-items: center;
-      user-select: none;
-      padding-bottom: 1em;
-      line-height: 0;
-    }
-    
-    .filters__list li:last-child {
-      padding-bottom: 1em;
-    }
-    
-    input[type="checkbox"] {
-      margin-right: 0.3em;
-    }
-    
-    .filters:not(.filters--active) {
-      display: none;
-    }
-    
-    .button {
-      background:  #2d2d2d;
-      padding: 1em 2em;
-      text-transform: uppercase;
-      font-weight: 100;
-      letter-spacing: 0.05em;
-      border: 0;
-      outline: 0;
-      text-align: left;
-      min-width: 150px;
-      display: inline-flex;
-      justify-content: space-between;
-      color: #ffffff;
-      cursor: pointer;
-    }
-    
-    .button::after {
-      font-family: sans-serif;
-      content: "▼";
-      padding-left: 0.5em;
-    }
-    /*BLACK BOX BUTTON END*/
-}
+  /*BLACK BOX I GRID HEADER*/
+  .black_box {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    grid-column: span 2;
+  }
 
+  /*BLACK BOX BUTTON START*/
+  .filters__list {
+    background-color: #2d2d2d;
+    color: #ffffff;
+  }
+
+  .filters ul {
+    list-style: none;
+  }
+
+  .filters label {
+    cursor: pointer;
+    margin-right: 2em;
+  }
+
+  .filters ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .filters li {
+    padding: 0.5em;
+  }
+
+  .filters {
+    width: 36em;
+    padding: 1.5em;
+    position: absolute;
+  }
+
+  .filters__list li {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    padding-bottom: 1em;
+    line-height: 0;
+  }
+
+  .filters__list li:last-child {
+    padding-bottom: 1em;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 0.3em;
+  }
+
+  .filters:not(.filters--active) {
+    display: none;
+  }
+
+  .button {
+    background: #2d2d2d;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    border: 0;
+    outline: 0;
+    text-align: left;
+    min-width: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .button::after {
+    font-family: sans-serif;
+    content: "▼";
+    padding-left: 0.5em;
+  }
+  /*BLACK BOX BUTTON END*/
+}
 
 /* WEBSITE - BANNER OG HEADER TILFØJES OG STYLES */
 @media (min-width: 1000px) {
@@ -137,27 +137,24 @@
     grid-template-rows: repeat(3, 1fr);
     width: 98%;
   }
+}
 
-  
-  }
+/*BOI BAND MIDT PÅ SIDEN // LINK TIL ANDET STED*/
+.banner_store {
+  display: grid;
+  grid-column: span 3;
+  background-image: url(/content/kategori_merch.webp);
+  background-size: cover;
+  text-align: center;
+  align-content: center;
+}
 
-  /*BOI BAND MIDT PÅ SIDEN // LINK TIL ANDET STED*/
-  .banner_store {
-    display: grid;
-    grid-column: span 3;
-    background-image: url(/content/skz.webp);
-    background-size: cover;
-    text-align: center;
-    align-content: center;
-  }
+.banner_store a {
+  color: rgb(30, 159, 30);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
 
-  .banner_store a {
-    color: rgb(30, 159, 30);
-    font-size: 2.5rem;
-    font-weight: 750;
-  }
-
-  .display_none_mobileview {
-    display: block;
-  }
-
+.display_none_mobileview {
+  display: block;
+}
