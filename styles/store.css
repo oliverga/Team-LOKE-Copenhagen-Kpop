@@ -10,8 +10,21 @@
   display: none;
 }
 
-/* WEBSITE - BANNER OG HEADER TILFØJES OG STYLES */
+/* MIDTER STADIE - 3 KLONNE VIEW */
 @media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .display_none_mobileview {
+    display: block;
+  }
+}
+
+/* WEBSITE - BANNER OG HEADER TILFØJES OG STYLES */
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
   .grid_kategori {
     display: grid;
     border-style: solid;
