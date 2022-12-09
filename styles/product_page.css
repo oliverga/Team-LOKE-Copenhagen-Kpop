@@ -1,3 +1,5 @@
+/* OVERALL PAGE */
+
 .flex_product_page {
     display: flex;
     flex-direction: column-reverse;
@@ -33,8 +35,18 @@
     margin-bottom: 2rem;
 }
 
+.product_img2 {
+    display: block;
+    margin-bottom: 2rem;
+}
 
-/* VERSION SELECT */
+.product_img1 {
+    display: none;
+}
+
+
+
+/* VERSION SELECTION */
 
 .product_version_select {
     display: flex;
@@ -80,6 +92,9 @@
     background: rgb(191, 191, 191);
 }
 
+
+
+
 /* PRODUCT PRICE */
 
 .product_price {
@@ -90,6 +105,8 @@
     font-size: xx-large;
     font-weight: 700;
 }
+
+
 
 
 /* QUANTITY PICKER */
@@ -103,19 +120,20 @@
 }
 
 .number_input_container {
-    width: 30%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .number_input_container button {
     aspect-ratio: 1/1;
-    height: 100%;
     background: none;
     border: 1px solid #2d2d2d;
     border-radius: 50%;
     color: #2d2d2d;
     transition: all 0.2s;
+    height: 2.5rem;
 }
 
 .number_input_container button:hover {
@@ -140,20 +158,23 @@
 }
 
 #quantity_number {
-    height: fit-content;
-    font-size: medium;
+    font-size: large;
     font-weight: 300;
-    color: #2d2d2d;
     align-self: center;
 }
+
+
+
+
+/* PAYMENT */
 
 .product_payment > button {
     margin-inline: 1.5rem;
     background: none;
     border: 1px solid #2d2d2d;
     border-radius: 20px;
-    padding-inline: 1rem;
-    padding-block: 0.5rem;
+    padding-inline: 1.1rem;
+    padding-block: 0.6rem;
     font-size: medium;
     font-weight: 300;
     color: #2d2d2d;
@@ -173,6 +194,10 @@
 }
 
 
+
+
+/* PRODUCT DESCRIPTION */
+
 .product_description {
     margin-block: 2rem;
     transition: all 0.8s;
@@ -189,11 +214,16 @@
 
 .product_description p {
     font-size: 0.9rem;
+    margin-bottom: 2rem;
 }
 
 .product_description li {
     font-size: 0.9rem;
 }
+
+
+
+
 
 .others_also_bought {
     margin-block: 3rem;
@@ -206,14 +236,10 @@
     margin-block: 2rem;
 }
 
-.product_img2 {
-    display: block;
-    margin-bottom: 2rem;
-}
 
-.product_img1 {
-    display: none;
-}
+
+
+/* ADD TO WISHLIST */
 
 .wishlist_container input {
     display: none;
@@ -257,7 +283,13 @@
     fill: aqua;
 }
 
-/* media query for phone size */
+
+
+
+
+
+
+
 @media (min-width: 600px) {
     .flex_product_page {
         display: flex;;
@@ -287,6 +319,25 @@
     .product_img2 {
         display: none;
     }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-inline: auto;
+        gap: 3rem;
+    }
     
 
+}
+
+@media (min-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-inline: auto;
+        gap: 3rem;
+    }
+
+    .grid:nth-child(4) {
+        display: none;
+    } 
 }
