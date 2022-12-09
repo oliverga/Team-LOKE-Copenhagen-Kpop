@@ -2,6 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Syne:400,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800');
 
+html {
+    --primary: #2d2d2d;
+    --secondary: #686868;
+    --tertiary: #fff;
+
+    --primary-font: 'Syne', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
+
+    --h1-font-weight: 800;
+    --h1-font-size: xx-large;
+
+    --h2-font-weight: 700;
+    --h2-font-size: large;
+
+    --p-font-weight: 300;
+    --p-font-size: medium;
+
+    --primary-border: 1px solid #2d2d2d;
+    --primary-border-radius: 0.2rem;
+
+    --primary-transition: all 0.2s ease-in-out;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +60,7 @@ h1 {
 h2 {
     font-family: 'Syne', sans-serif;
     font-size: large;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 p {

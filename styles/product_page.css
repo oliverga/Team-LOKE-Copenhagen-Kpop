@@ -12,6 +12,7 @@
 
 .flex_product_page_imgs img {
     margin-bottom: 2rem;
+    border-radius: 0.2rem;
 }
 
 .product_info {
