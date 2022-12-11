@@ -103,9 +103,16 @@ header {
     color: #fff;
     padding: 0.2rem;
     padding-block: 0.4rem;
+    margin-bottom: 0.5rem;
     text-align: center;
     font-size: small;
     font-weight: 300;
+}
+
+.free_delivery_banner p {
+    font-size: small;
+    font-weight: 300;
+    margin-block: 0.2rem;
 }
 
 .header_main {
@@ -130,10 +137,10 @@ header {
 .header_nav_menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
-    white-space: nowrap
+    flex-wrap: wrap;
 }
 
 .header_nav_menu a {
@@ -195,6 +202,7 @@ header {
 .breadcrumbs {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     margin-top: 2rem;
@@ -205,6 +213,7 @@ header {
     text-decoration: none;
     color: #2d2d2d;
     font-size: medium;
+
 }
 
 .breadcrumbs a:hover {
@@ -490,6 +499,19 @@ footer {
 
     main {
         margin-bottom: 4rem;
+    }
+
+    .free_delivery_banner {
+        background: var(--primary);
+        color: #fff;
+        padding: 0.2rem;
+        padding-block: 0.2rem;
+        text-align: center;
+    }
+    
+    .free_delivery_banner p {
+        font-size: medium;
+        font-weight: 300;
     }
 
     .grid {

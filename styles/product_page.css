@@ -30,7 +30,7 @@
 }
 
 .product_name h1 {
-    font-size: xx-large;
+    font-size: 1.5rem;
     font-weight: 800;
     margin-top: 0rem;
     margin-bottom: 2rem;
@@ -106,7 +106,7 @@
 }
 
 .product_price h2 {
-    font-size: xx-large;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .number_input_container button:hover {
-    background: rgb(218, 218, 218);
+    background: none;
 }
 
 .number_input_container button:active {
@@ -190,7 +190,7 @@
 
 
 .product_payment > button:hover {
-    background: rgb(218, 218, 218);
+    background: none;
 }
 
 .product_payment > button:active {
@@ -232,13 +232,17 @@
 
 
 .others_also_bought {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .others_also_bought > h2 {
     font-size: x-large;
     font-weight: 700;
-    margin-block: 1rem;
+    margin-top: 2rem;
+}
+
+.others_also_bought .grid {
+    margin-top: 2rem;
 }
 
 
@@ -273,12 +277,13 @@
 }
 
 .wishlist_button:hover {
-    background: rgb(218, 218, 218);
+    background: none;
 }
 
 .wishlist_button:active {
     background: rgb(191, 191, 191);
 }
+
 
 #wishlist_checkbox:checked + .wishlist_button {
     background: rgb(191, 191, 191);
@@ -326,6 +331,31 @@
 
     #card_number_4 {
         display: none;
+    }
+
+    .number_input_container button:hover {
+        background: rgb(218, 218, 218);
+    }
+    
+    .number_input_container button:active {
+        background: rgb(191, 191, 191);
+    }
+    
+
+    .product_payment > button:hover {
+        background: rgb(218, 218, 218);
+    }
+    
+    .product_payment > button:active {
+        background: rgb(191, 191, 191);
+    }
+
+    .wishlist_button:hover {
+        background: rgb(218, 218, 218);
+    }
+    
+    .wishlist_button:active {
+        background: rgb(191, 191, 191);
     }
 }
 
