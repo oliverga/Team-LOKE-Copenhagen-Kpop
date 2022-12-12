@@ -44,7 +44,7 @@ img {
     display: block;
 }
 
-main {
+main *:not(.top_banner, .bottom_banner){
     width: 90%;
     max-width: 1200px;
     margin-inline: auto;
