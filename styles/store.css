@@ -63,16 +63,20 @@
   .filters ul,
   li {
     margin: 0;
-    padding: 0;
   }
 
   .filters li {
-    padding: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-inline: 0.5em;
+  }
+
+  .header_button p {
+    padding-top: 1em;
   }
 
   .filters {
     width: 36em;
-    padding: 1.5em;
     position: absolute;
   }
 
