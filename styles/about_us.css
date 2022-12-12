@@ -65,7 +65,6 @@ video{
     }
 
     .location_video, .about_us1{
-        max-width: 600px;
         margin: auto;
         text-align: center;
     }
