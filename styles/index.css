@@ -9,9 +9,11 @@ main {
   margin-inline: auto;
 }
 
+.top_banner{
+  margin-bottom: 3rem;
+}
 .bottom_banner{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+margin-block: 3rem;
 }
 .grid {
   display: grid;
