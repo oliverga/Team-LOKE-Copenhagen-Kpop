@@ -8,7 +8,7 @@ function toggleMenu() {
 
   if (menuShown) {
     console.log(menuShown); 
-    btn.textContent = "Luk";
+    btn.textContent = "Close";
   } else {
     console.log(menuShown); 
     btn.textContent = "Menu";

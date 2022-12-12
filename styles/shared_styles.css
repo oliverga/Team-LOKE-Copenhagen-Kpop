@@ -506,9 +506,11 @@ footer {
     font-size: medium;
     font-weight: 300;
     cursor: pointer;
+    flex-basis: 100%;
+    margin-block: 0.2rem;
   }
 
-  .header_nav_menu_container ul {
+  .header_nav_menu_container {
     display: none;
   }
 
@@ -519,6 +521,10 @@ footer {
 
   .header_nav_menu_container_mobile.shown ul {
     display: flex;
+  }
+
+  .header_nav_menu_container_mobile.shown li {
+    margin-block: 0.2rem;
   }
 
  .break {
@@ -541,7 +547,7 @@ footer {
         flex-basis: 100%
       }
 
-      .header_nav_menu_container ul {
+      .header_nav_menu_container {
         display: flex;
       }
       
