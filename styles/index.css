@@ -1,3 +1,7 @@
+.bottom_banner{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -131,6 +135,13 @@
   text-decoration-line: underline;
 }
 
+.instagram_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+  width: 90%;
+  margin-inline: auto;
+}
 @media (min-width: 600px) {
   .grid {
     display: grid;
