@@ -5,14 +5,15 @@ h1 {
 }
 
 main p {
-    margin: 2%;
+    margin: 3%;
 }
 
 video{
     margin-top: 5%;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     max-width: 400px;
 }
+
 
 @media (min-width: 600px) {
 
