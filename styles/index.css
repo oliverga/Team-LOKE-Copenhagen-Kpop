@@ -153,6 +153,12 @@ main {
   width: 90%;
   margin-inline: auto;
 }
+
+.instagram_sektion h2{
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
 @media (min-width: 600px) {
   .grid {
     display: grid;
