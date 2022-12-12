@@ -3,6 +3,9 @@ h1 {
     margin: 4%;
     text-align: center;
 }
+h2{
+    margin-inline: 5%;
+}
 
 main p {
     margin: 3%;
@@ -12,6 +15,16 @@ video{
     margin-top: 5%;
     margin-bottom: 15%;
     max-width: 400px;
+}
+
+.store_hours{
+    margin-block: 10%;
+    margin-inline: 5%;
+}
+
+.info{
+    margin-block: 10%;
+    margin-inline: 5%;
 }
 
 
