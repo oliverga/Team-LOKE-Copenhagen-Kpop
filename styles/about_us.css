@@ -8,6 +8,20 @@ main p {
     margin: 2%;
 }
 
+video{
+    margin-top: 5%;
+    margin-bottom: 20%;
+    max-width: 400px;
+}
+
+@media (min-width: 600px) {
+
+    video{
+        max-width: 600px;
+    }
+
+}
+
 
 @media (min-width: 1000px) {
 
@@ -40,6 +54,10 @@ main p {
         max-width: 600px;
         margin: auto;
         text-align: center;
+    }
+
+    video{
+        max-width: 1000px;
     }
 
 }
