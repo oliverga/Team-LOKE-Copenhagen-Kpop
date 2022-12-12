@@ -28,7 +28,7 @@
                 <a href="index.html">Home</a>
               </li>
               <li>
-                <a href="preorder.html">Preorder</a>
+                <a href="">Preorder</a>
               </li>
               <li>
                 <a href="store.html">Shop</a>
@@ -65,6 +65,25 @@
             </ul>
           </nav>
         </div>
+        <button class="toggle-btn">Menu</button>
+        <div class="header_nav_menu_container_mobile">
+          <nav>
+            <ul class="header_nav_menu">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="">Preorder</a>
+              </li>
+              <li>
+                <a href="store.html">Shop</a>
+              </li>
+              <li>
+                <a href="about_us.html">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -86,7 +105,9 @@
             <div id="filter-container" class="filters">
               <ul class="filters__list">
                 <!--SOLO-->
-                <div>Solo Artist</div>
+                <li class="header_button">
+                  <p>Solo Artists</p>
+                </li>
                 <li>
                   <input id="f1" type="checkbox" />
                   <label for="f1">IU</label>
@@ -98,7 +119,9 @@
                   <label for="f4">Mad Clown</label>
                 </li>
                 <!--BOY BANDS-->
-                <div>Boy Bands</div>
+                <li class="header_button">
+                  <p>Boy Bands</p>
+                </li>
                 <li>
                   <input id="f5" type="checkbox" />
                   <label for="f5">BTS</label>
@@ -111,7 +134,9 @@
                 </li>
 
                 <!--GIRL BANDS-->
-                <div>Girl Bands</div>
+                <li class="header_button">
+                  <p>Girl Bands</p>
+                </li>
                 <li>
                   <input id="f10" type="checkbox" />
                   <label for="f10">(G)I-DLE</label>
@@ -123,7 +148,9 @@
                   <label for="f13">Red Velvet</label>
                 </li>
                 <!--CO-ED GROUPS-->
-                <div>CO-ED Groups</div>
+                <li class="header_button">
+                  <p>CO-ED Groups</p>
+                </li>
                 <li>
                   <input id="f14" type="checkbox" />
                   <label for="f14">KARD</label>
@@ -304,5 +331,6 @@
     </footer>
     <script src="js/login.js"></script>
     <script src="js/button.js"></script>
+    <script src="js/burgermenu.js"></script>
   </body>
 </html>
