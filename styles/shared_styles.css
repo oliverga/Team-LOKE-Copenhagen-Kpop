@@ -44,12 +44,11 @@ img {
     display: block;
 }
 
-main *:not(.top_banner, .bottom_banner){
+main {
     width: 90%;
     max-width: 1200px;
     margin-inline: auto;
-
-}   
+}
 
 h1 {
     font-family: 'Syne', sans-serif;
