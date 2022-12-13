@@ -1,4 +1,4 @@
-/* MOBILSITE - DET SOM SKAL FORSVINDE PÅ MOBILEVIEW*/
+/* MOBILSITE - BLANDT ANDET DET SOM SKAL FORSVINDE PÅ MOBILEVIEW*/
 .banner_store {
   display: none;
 }
@@ -8,6 +8,12 @@
 
 .display_none_mobileview {
   display: none;
+}
+
+.albums_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* MIDTER STADIE - 3 KLONNE VIEW */
