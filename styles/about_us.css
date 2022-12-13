@@ -12,30 +12,66 @@ main p {
 }
 
 video{
-    margin-top: 3%;
-    margin-bottom: 10%;
+    margin: auto;
     max-width: 400px;
+    display: block;
 }
 
 .store_hours{
-    margin-block: 10%;
+    margin-block: 7%;
     margin-inline: 5%;
 }
 
 .info{
-    margin-block: 10%;
+    margin-block: 7%;
     margin-inline: 5%;
 }
 
+img{
+    margin-block: 10%;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.grid_1-1, .grid_2-1{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 
 @media (min-width: 600px) {
 
     video{
         max-width: 600px;
+        margin: 0 auto;
+        display: block;
+    }
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-block: 5%;
     }
 
+    .grid_2-1{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .info_flexbox{
+        display: flex;
+        flex-direction: row;
+    }
+
+    img{
+        width: 100%;
+        margin-inline: 5%;    
+    }
+
+    .maps{
+        margin-inline: 5%;
+    }
 }
+
 
 
 @media (min-width: 1000px) {
@@ -78,9 +114,28 @@ video{
 
     video{
         max-width: 1000px;
+        margin-bottom: 5%;
     }
 
     .find_us{
         margin-bottom: 5%;
+    }
+
+    img{
+        margin-block: 0%;
+        max-width: 90%;
+    }
+
+    .info_flexbox{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .p{
+        margin-inline: 5%;
+    }
+
+    .maps{
+    margin-inline: -3%;
     }
 }
