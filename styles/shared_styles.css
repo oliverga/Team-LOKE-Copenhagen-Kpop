@@ -89,7 +89,9 @@ li {
     font-weight: 300;
 }
 
-
+.banner_store a {
+    font-family: 'Syne', sans-serif;
+}
 
 /* HEADER */
 
