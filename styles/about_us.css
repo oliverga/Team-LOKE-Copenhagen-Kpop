@@ -4,7 +4,7 @@ h1 {
     text-align: center;
 }
 h2{
-    margin-inline: 5%;
+    margin-inline: 3%;
 }
 
 main p {
@@ -70,6 +70,8 @@ img{
     .maps{
         margin-inline: 5%;
     }
+
+    
 }
 
 
@@ -137,5 +139,13 @@ img{
 
     .maps{
     margin-inline: -3%;
+    }
+
+    body{
+        background-image: url("/content/svg_files/Artboard_ver_3.svg"), 
+                            url("/content/svg_files/Artboard_ver_3.svg");
+        background-size: contain, contain;
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0 200px, 0 1200px;
     }
 }
