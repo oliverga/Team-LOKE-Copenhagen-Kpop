@@ -11,9 +11,19 @@ main {
 
 .top_banner{
   margin-bottom: 3rem;
+  display: none;
+}
+
+.top_banner_mobile{
+  margin-bottom: 3rem;
 }
 .bottom_banner{
+display: none;
 margin-block: 3rem;
+}
+
+.bottom_banner_mobile{
+  margin-block: 3rem;
 }
 .grid {
   display: grid;
@@ -34,7 +44,7 @@ margin-block: 3rem;
 
 #product4,
 #product3 {
-  visibility: collapse;
+  display: none;
 }
 
 .grid_bands {
@@ -162,6 +172,22 @@ margin-block: 3rem;
   margin-bottom: 1rem;
 }
 @media (min-width: 600px) {
+
+  .top_banner{
+    display: block;
+
+  }
+  .bottom_banner{
+    display: block;
+
+  }
+
+  .top_banner_mobile{
+    display: none;
+  }
+  .bottom_banner_mobile{
+    display: none;
+  }
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -171,7 +197,7 @@ margin-block: 3rem;
   }
 
   #product3 {
-    visibility: inherit;
+    display: flex;
   }
   .grid_bands {
     display: grid;
@@ -201,6 +227,6 @@ margin-block: 3rem;
   }
 
   #product4 {
-    visibility: inherit;
+    display: flex;
   }
 }
