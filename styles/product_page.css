@@ -207,7 +207,7 @@
 }
 
 .product_description ul {
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
 }
 
 .product_description h2 {
@@ -297,6 +297,10 @@
 
 
 @media (min-width: 600px) {
+    .product_description ul {
+        margin-bottom: 0rem;
+    }
+
     .flex_product_page {
         display: flex;;
         flex-direction: row;

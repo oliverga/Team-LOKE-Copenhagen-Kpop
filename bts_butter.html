@@ -1,11 +1,12 @@
 <html lang="da">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="/styles/shared_styles.css" />
-    <link rel="stylesheet" href="/styles/product_page.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BTS Butter Album Page">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="/styles/shared_styles.css">
+    <link rel="stylesheet" href="/styles/product_page.css">
     <title>BTS - Butter</title>
   </head>
   <body>
@@ -120,6 +121,18 @@
                         <p>BIGHIT MUSIC</p>
                         <h1>BTS - Butter</h1>
                     </div>
+                    <div>
+                        <ul class="product_version_select">
+                            <li>
+                                <input type='radio' value='Cream Ver.' name='VERSION' id='radio_ver1'>
+                                <label for='radio_ver1'>Cream Ver.</label>
+                            </li>
+                            <li>
+                                <input type='radio' value='Peaches Ver.' name='VERSION' id='radio_ver2'>
+                                <label for='radio_ver2'>Peaches Ver.</label>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="product_price">
                         <h2>239,95 kr</h2>
                     </div>
@@ -138,12 +151,10 @@
                         <button>Add to cart</button>
                     </div>
                     <div class="wishlist_container">
-                        <label for="wishlist_checkbox">
-                            <input type="checkbox" id="wishlist_checkbox"></input>
-                            <div class="wishlist_button">
+                        <input type="checkbox" id="wishlist_checkbox">
+                        <label for="wishlist_checkbox" class="wishlist_button">
                                 <img src="/content/svg_files/heart.svg" alt="Wishlist Heart" id="wishlist_heart">
-                                <p id="wishlist_text">Add to wishlist</p>
-                            </div>
+                                <span id="wishlist_text">Add to wishlist</span>
                         </label>
                     </div>
                     <div>
@@ -171,7 +182,7 @@
             <div class="grid">
                 <div class="card">
                     <div class="card_imgdiv">
-                      <img src="/content/product_pics/cheshirel.webp" alt="ITZY CHESHIRE Cover" />
+                      <img src="/content/product_pics/cheshirel.webp" alt="ITZY CHESHIRE Cover">
                     </div>
                     <h2>ITZY - CHESHIRE (LIMITED EDITION)</h2>
                     <p>199,95 kr</p>
@@ -179,7 +190,7 @@
                 </div>
                 <div class="card">
                     <div class="card_imgdiv">
-                      <img src="/content/product_pics/aespa1.webp" alt="aespa Savage Cover" />
+                      <img src="/content/product_pics/aespa1.webp" alt="aespa Savage Cover">
                     </div>
                     <h2>aespa - Savage (Hallucination Quest Ver.)</h2>
                     <p>239,95 kr</p>
@@ -187,7 +198,7 @@
                   </div>                  
                 <div class="card">
                     <div class="card_imgdiv">
-                      <img src="/content/product_pics/doublast.webp" alt="Kep1er DOUBLAST Cover" />
+                      <img src="/content/product_pics/doublast.webp" alt="Kep1er DOUBLAST Cover">
                     </div>
                     <h2>Kep1er - DOUBLAST</h2>
                     <p>239,95 kr</p>
@@ -195,7 +206,7 @@
                 </div>
                 <div class="card" id="card_number_4">
                     <div class="card_imgdiv">
-                      <img src="/content/product_pics/yooa.webp" alt="YooA SELFISH Cover" />
+                      <img src="/content/product_pics/yooa.webp" alt="YooA SELFISH Cover">
                     </div>
                     <h2>YooA - SELFISH</h2>
                     <p>219,95 kr</p>
